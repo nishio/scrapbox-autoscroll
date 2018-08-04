@@ -1,15 +1,13 @@
 {
-  "name": "Chrome拡張の雛形です",
-  "description": "これから作るものにあわせて変更してください。",
+  "name": "Scrapbox Auto-scroll",
+  "description": "Scroll Scrapbox pages automatically",
   "version": "0.1",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": ["https://github.com/waterada/chrome-ex-template/*"],
+    "matches": ["https://scrapbox.io/*"],
     "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
   }],
-  "options_page": "options.html",
-  "permissions": [
-    "https://github.com/waterada/chrome-ex-template/*",
-    "storage"
+    "permissions": [
+	"https://scrapbox.io/*"
   ]
 }

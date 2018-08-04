@@ -1,7 +1,7 @@
 {
   "name": "Scrapbox Auto-scroll",
   "description": "Scroll Scrapbox pages automatically",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "content_scripts": [{
     "matches": ["https://scrapbox.io/*"],

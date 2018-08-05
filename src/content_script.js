@@ -45,7 +45,7 @@ $(function () {
 
 	    }else{
 		//console.log("not finished");
-		target_top += speed * interval / 1000.0;
+		target_top = $(document).scrollTop() + speed * interval / 1000.0;
 		$([document.documentElement, document.body]).animate({
 		    scrollTop: target_top
 		}, interval, "linear");
